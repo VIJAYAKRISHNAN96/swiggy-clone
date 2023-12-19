@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding:0px;
+
+}
+#navibar{
+    display:flex;
+    flex-direction:row;
+    height:90px;
+    width:100%;
+    background-color:black;
+}
+#navibar ul{
+
+    display:flex;
+    flex-direction: row;
+    list-style:none; 
+}
+#navibar ul li{
+    padding: 3px 26px ;
+    color:white;
+   
+    font-size: 1.3rem;
+
+}
+#navibar img{
+    height:50px;
+    width:60px;
+    filter: invert();
+    margin-right: 14px;
+
+
+}
